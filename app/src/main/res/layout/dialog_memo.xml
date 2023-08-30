@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_memo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memo"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="1"
+            android:textOn="1" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="2"
+            android:textOn="2" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="3"
+            android:textOn="3" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="4"
+            android:textOn="4" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="5"
+            android:textOn="5" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="6"
+            android:textOn="6" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ToggleButton
+            android:id="@+id/toggleButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="7"
+            android:textOn="7" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="8"
+            android:textOn="8" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="9"
+            android:textOn="9" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="DELETE"
+            android:textAlignment="viewStart"
+            android:textColor="@color/purple_700"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView_can"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="CANCEL"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/purple_700"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="OK"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/purple_700"
+            android:textSize="26sp" />
+    </TableRow>
+</TableLayout>
